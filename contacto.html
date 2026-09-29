@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Conexión 2026</title>
+    <link rel="icon" type="logo/png" href="img/logo2.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pagina">
+        <header>
+            <div class="logo"><img src="img/logo2.png" alt="Conexión 2026" class="logo-img"></div>
+
+            <!-- MENÚ DE NAVEGACIÓN -->
+            <nav class="menu">
+                <ul class="flex-menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="entrada.html">Entradas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contactanos">
+                <div class="contactanos-contenido">
+                    <h1>Contactanos</h1>
+                    <p>Estamos para ayudarte con tus consultas sobre Conexión 2026.</p>
+
+                    <p>
+                        ¿Tenés alguna consulta?
+                        Completá el formulario y nos pondremos en contacto.
+                    </p>
+                </div>
+            </section>
+
+
+
+            <div class="contact-grid">
+
+                <section class="info">
+                    <h2>Información de contacto</h2>
+
+                    <div class="info-item">
+                        <strong>📍 UBICACIÓN</strong>
+                        <span>Predio Cultural · Buenos Aires</span>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>✉ EMAIL</strong>
+                        <span>contacto@Conexion.com</span>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>☎ TELÉFONO</strong>
+                        <span>+54 11 XXXX XXXX</span>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>SEGUINOS</strong>
+                        <span>Instagram · Facebook · LinkedIn</span>
+                    </div>
+
+
+                </section>
+
+                <section class="form">
+                    <h2>Envíanos tu consulta</h2>
+
+                    <form id="contactForm" action="https://formspree.io/f/xgavrzdl" method="POST">
+                        <div class="field">
+                            <label for="name">Nombre y apellido</label>
+                            <input id="name" name="name" type="text" placeholder="Ingresá tu nombre" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="nombre@email.com" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="subject">Asunto</label>
+                            <input id="subject" name="subject" type="text" placeholder="¿En qué podemos ayudarte?" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="messageText">Mensaje</label>
+                            <textarea id="messageText" placeholder="Escribí tu consulta..." required></textarea>
+                        </div>
+
+                        <button class="submit" type="submit">ENVIAR CONSULTA</button>
+
+                        <div id="message">
+                            Tu consulta fue registrada correctamente.
+                        </div>
+                    </form>
+                    
+                </section>
+
+            </div>
+        </main>
+
+        <footer>
+            © 2026 Conexion · by Carleu
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
