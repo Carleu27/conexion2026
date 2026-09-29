@@ -252,15 +252,69 @@ header {
 /* =========================================
    PÁGINA DE ENTRADAS
 ========================================= */
-.banner{
-  background: linear-gradient(135deg, #2d4f82,#06224b );
-  color: rgb(252, 252, 252);
-  text-align: center;
-  padding: 70px 20px;
+.banner {
+    background: linear-gradient(135deg, #2d4f82, #06224b);
+    color: white;
+    text-align: center;
+    padding: 65px 20px 60px;
 }
-.banner h4 span {
+
+
+.banner-etiqueta {
+    margin-bottom: 12px;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    font-weight: bold;
     color: #b9a7ff;
 }
+
+
+.banner h1 {
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    margin-bottom: 18px;
+}
+
+
+.banner-descripcion {
+    max-width: 700px;
+    margin: 0 auto 28px;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+.banner-datos {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.banner-datos div {
+    min-width: 200px;
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+
+.banner-datos strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+
+.banner-datos span {
+    font-size: 0.95rem;
+}
+
 .span h4
 .main {
     background-color: white;
@@ -722,6 +776,33 @@ footer {
         text-align: left;
     }
     
+    .banner {
+        padding: 50px 7%;
+    }
+
+
+    .banner h1 {
+        font-size: 2.3rem;
+    }
+
+
+    .banner-descripcion {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+
+
+    .banner-datos {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+
+    .banner-datos div {
+        width: 100%;
+        min-width: auto;
+    }
+
 
     /* FOOTER */
 
