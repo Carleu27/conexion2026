@@ -58,10 +58,6 @@ Se creó un formulario en la plataforma y se agregó la URL proporcionada por Fo
 También se utilizó el método `POST` para realizar el envío de los datos.
 
 
-```html
-<form action="URL_DE_FORMSPREE" method="POST">
-T">
-
 
 ## Tecnologías utilizadas
 
@@ -80,4 +76,11 @@ Se utilizaron reglas @media en CSS para adaptar la visualización del sitio a di
 
 Carmen Leonela Lamas
 
-proyecto realizado como práctica de Front-End para Talento Lab.
+Proyecto realizado como práctica de Front-End para Talento Lab.
+
+
+
+
+
+
+
