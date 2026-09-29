@@ -59,7 +59,7 @@ También se utilizó el método `POST` para realizar el envío de los datos.
 
 
 
-## Tecnologías utilizadas
+## 🎨 Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -68,11 +68,11 @@ También se utilizó el método `POST` para realizar el envío de los datos.
 **Formspree se utilizó para resolver el envío del formulario sin desarrollar un backend**
 
 
-## Diseño responsive
+## 📱 Diseño responsive
 
 Se utilizaron reglas @media en CSS para adaptar la visualización del sitio a diferentes tamaños de pantalla, permitiendo una mejor experiencia tanto en computadoras como en dispositivos móviles.
 
-## Autora
+## 🧑‍💻 Autora
 
 Carmen Leonela Lamas
 
