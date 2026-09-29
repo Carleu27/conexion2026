@@ -72,11 +72,16 @@ También se utilizó el método `POST` para realizar el envío de los datos.
 
 Se utilizaron reglas @media en CSS para adaptar la visualización del sitio a diferentes tamaños de pantalla, permitiendo una mejor experiencia tanto en computadoras como en dispositivos móviles.
 
-## 🧑‍💻 Autora
+## 👩‍💻 Autora
 
-Carmen Leonela Lamas
 
-Proyecto realizado como práctica de Front-End para Talento Lab.
+**Carmen Leonela Lamas**
+
+
+Proyecto realizado como práctica de Front-End para **Talento Lab**.
+
+
+
 
 
 
