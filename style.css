@@ -592,12 +592,12 @@ textarea {
     background-color:#ffffff;
 .ubicacion h2 {
     color:#172033;
-    margin-bottom:26px;
+    margin-bottom:25px;
 }
 .ubicacion iframe {
     width: 100%;
     max-width:1000px;
-    height: 350px;
+    height: 400px;
     border: 0;
     border-radius:10px;
 }
