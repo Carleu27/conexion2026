@@ -435,42 +435,18 @@ header {
     margin: 0 auto;
 }
 .contactanos{
-  background: linear-gradient(135deg, #172a46,#06285c );
-  color: rgb(252, 252, 252);
+  background-color: #ffffff;
+  color: #172033;
   text-align: center;
-  padding: 70px 20px;
+  padding: 60px 20px 40px;
 }
 
 .contactanos h1 {
-    font-size: clamp(2rem, 4vw, 3.5rem);
-
-    line-height: 1.1;
-
-    margin-bottom: 25px;
-
-    color: #ffffff;
+    color: #172033;
 }
 .contactanos p {
-    max-width: 650px;
-
-    margin: 0 auto 18px;
-
-    color: #ffffff;
-
-    font-size: 1.05rem;
-}
-.contactanos p2 {
-    max-width: 650px;
-
-    margin: 0 auto 18px;
-
     color: #566173;
-
-    font-size: 1.05rem;
 }
-
-
-
 
 .contact-grid {
   display: grid;
