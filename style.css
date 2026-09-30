@@ -98,6 +98,7 @@ header {
 /* CONTENIDO GENERAL*/
 .main {
     width: 100%;
+    blackground-color: white;
 }
 
 
@@ -345,10 +346,6 @@ header {
     font-size: 0.95rem;
 }
 
-.span h4
-.main {
-    background-color: white;
-}
 
 .entrada {
     padding: 80px 7%;
@@ -469,7 +466,7 @@ header {
   color: #172033;
   text-align: center;
   padding: 60px 20px 40px;
-  border-botton: 1px solid #e1e4e8;
+  border-bottom: 1px solid #e1e4e8;
 }
 
 .contactanos h1 {
@@ -614,234 +611,230 @@ footer .redes a {
     color:#ffffff;
     font-size: 1.3rem;
     text-decoration:none;
-    transition: opacity: 0.2s ease;
+    transition: opacity 0.2s ease;
 }
 footer .redes a:hover{
     opacity: 0.7;
 
 }
 
-/* =========================================
-   RESPONSIVE
-========================================= */
+/* ===========================
+   RESPONSIVE 
+============================== */
 
-@media (max-width: 700px) {
-    header {
-        min-height: 70px;
-        padding: 12px 5%;
-        justify-content: space-between;
-    }
-    .logo {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
-    .logo-img{
-        height:42px;
-
-    .hero {
-        min-height: auto;
-    }
-
-    .hero-content {
-        padding: 60px 6%;
-    }
-
-    .datos-evento {
-        gap: 30px;
-    }
-        
-    .redes-header{
-        display:none;
-    }
-
-    .menu-icon{
-        display:block;
-        font-size: 1.5rem;
-        color: #172033;
-        cursor: pointer;
-        z-index:10;
-
-    }
-
-    .menu{
-        display:none;
-        position: absolute;
-        top:70px;
-        left: 0;
-        width:100%
-        background-color: #ffffff;
-        border-top: 1px solid #e1e4e8;
-        z-index: 20;
-    }
-
-    #menu-toggle:checked ~ .menu{
-        display:block;
-    }
-
-    .flex-menu {
-        flex-direction:column;
-        width:100%;
-        gap: 0px;      
-    }
-
-    .flex-menu li {
-        width:100%;
-        text-align: center;
-        border-botton: 1px solid #e1e4e8;        
-    }
-    .flex-menu a {
-        display:block;
-        width:100%;
-        padding: 15px;
-
-    .entrada {
-        padding: 45px 5%;
-    }
-
-    .entrada h1 {
-        font-size: 2.1rem;
-        padding: 60px 7%;
-    }
-
-    .entradas-container {
-        flex-direction: column;
-        align-items: center;
-    }   
-
-    .entrada-card {
-        max-width: 100%;
-    }
-
-    .contacto {
-        padding: 60px 7%;
-    }
-    .contact-grid {
-    grid-template-columns: 1fr;
-  }
-
-}
-
-
-/* =========================================
-   CELULARES
-========================================= */
 
 @media (max-width: 700px) {
 
+
+    /* PÁGINA */
     .pagina {
         width: 100%;
     }
 
 
     /* HEADER */
-
     header {
-        padding: 18px 5%;
-
-        flex-direction: column;
-
-        gap: 15px;
+        min-height: 70px;
+        padding: 12px 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
     }
+
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .logo-img {
+        height: 42px;
+    }
+
+
+    /* Redes del header */
+    .redes-header {
+        display: none;
+    }
+
+
+    /* Hamburguesa */
+    .menu-icon {
+        display: block;
+        font-size: 1.5rem;
+        color: #172033;
+        cursor: pointer;
+        z-index: 30;
+    }
+
+
+    /* Menú */
+    .menu {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        border-top: 1px solid #e1e4e8;
+        z-index: 20;
+    }
+
+
+    #menu-toggle:checked ~ .menu {
+        display: block;
+    }
+
 
     .flex-menu {
-        gap: 18px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
     }
+
+
+    .flex-menu li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #e1e4e8;
+    }
+
+
+    .flex-menu a {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+
+
 
 
     /* HERO */
-
     .hero {
+        display: flex;
         flex-direction: column;
-
         min-height: auto;
     }
 
-    .hero-content {
-        width: 100%;
-
-        order: 2;
-
-        padding: 55px 7%;
-
-        align-items: flex-start;
-
-        text-align: left;
-    }
-
-    .hero h1 {
-        font-size: clamp(2.5rem, 12vw, 4rem);
-    }
 
     .hero-imagen {
         width: 100%;
-
-        order: 1;
-
-        min-height: 350px;
-
         height: 350px;
+        min-height: 350px;
+        order: 1;
     }
+
 
     .hero-imagen img {
         height: 350px;
     }
 
 
-    /* BOTONES */
+    .hero-content {
+        width: 100%;
+        order: 2;
+        padding: 55px 7%;
+        align-items: flex-start;
+        text-align: left;
+    }
 
+
+    .hero h1 {
+        font-size: clamp(2.5rem, 12vw, 4rem);
+    }
+
+
+
+
+    /* BOTONES */
     .botones {
         width: 100%;
-
+        display: flex;
         flex-direction: column;
-
         align-items: stretch;
     }
 
+
     .btn {
         width: 100%;
-
         text-align: center;
     }
 
 
-    /* DATOS */
 
+
+    /* DATOS DEL EVENTO */
     .datos-evento {
         width: 100%;
-
+        display: flex;
         flex-direction: column;
-
         gap: 20px;
-
         margin-top: 35px;
     }
 
 
-    /* INFORMACIÓN */
 
+
+    /* INFORMACIÓN */
     .informacion {
         padding: 70px 7%;
     }
+
 
     .informacion h2 {
         font-size: 2.2rem;
     }
 
-    /*entrada*/
+
+
+
+    /* ENTRADAS */
+    .entrada {
+        padding: 45px 5%;
+    }
+
+
+    .entrada h1 {
+        font-size: 2.1rem;
+    }
+
+
+    .entradas-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
     .entrada-card {
         width: 100%;
-
-        order: 1;
-
-        padding: 55px 7%;
-
-        align-items: flex-start;
-
+        max-width: 100%;
+        padding: 35px;
         text-align: left;
     }
-    
+
+
+
+
+    /* CONTACTO */
+    .contactanos {
+        padding: 60px 7%;
+    }
+
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+    /* BANNER DE ENTRADAS */
     .banner {
         padding: 50px 7%;
     }
@@ -870,10 +863,17 @@ footer .redes a:hover{
     }
 
 
-    /* FOOTER */
 
+
+    /* FOOTER */
     footer {
         padding: 22px 5%;
     }
-
 }
+
+
+
+
+
+    
+  
