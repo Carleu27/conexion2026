@@ -4,7 +4,7 @@
 ## 📌 Descripción del proyecto
 
 
-Este proyecto corresponde a la **primera entrega de un proyecto Front-End realizado para Talento Lab*.
+Este proyecto corresponde a la *primera entrega de un proyecto Front-End realizado para Talento Lab*.
 
 En esta etapa se desarrolló una página web para un evento ficticio denominado **Conexion 2026**, utilizando HTML y CSS, donde el usuario puede consultar información del evento, conocer las entradas disponibles y enviar una consulta mediante un formulario de contacto.
 
@@ -15,7 +15,7 @@ En esta primera entrega se centra en la **estructura, diseño y maquetación del
 
 ## 🌐 Proyecto publicado
 
-El proyecto fue publicado utilizando **Vercel* para facilitar la visualización del sitio web en línea.
+El proyecto fue publicado utilizando *Vercel* para facilitar la visualización del sitio web en línea.
 
 **[Ver Conexión 2026](https://conexion2026.vercel.app/)**
 
