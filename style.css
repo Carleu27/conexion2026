@@ -599,7 +599,7 @@ textarea {
     max-width:1000px;
     height: 350px;
     border: 0;
-    border.radius:10px;
+    border-radius:10px;
 }
 
 /* =========================================
