@@ -1,20 +1,16 @@
-# CONEXIÓN 2026 🎟️
-
-
-Proyecto Front-End desarrollado como práctica para Talento Lab.
-
-
-Conexión 2026 es una página web ficticia de un evento, desarrollada utilizando HTML y CSS. El proyecto incluye una página de inicio, una sección de entradas y una página de contacto con formulario.
+# CONEXIÓN 2026 🎟️ - PRIMERA ENTREGA
 
 
 ## 📌 Descripción del proyecto
 
 
-El objetivo de esta práctica fue desarrollar una página web aplicando conceptos fundamentales de desarrollo Front-End, principalmente la utilización de HTML para la estructura y CSS para el diseño y la presentación de los contenidos.
+Este proyecto corresponde a la **primera entrega de un proyecto Front-End realizado para Talento Lab*.
 
+En esta etapa se desarrolló una página web para un evento ficticio denominado **Conexion 2026**, utilizando HTML y CSS, donde el usuario puede consultar información del evento, conocer las entradas disponibles y enviar una consulta mediante un formulario de contacto.
 
-El sitio representa un evento ficticio denominado **Conexión 2026**, donde el usuario puede consultar información del evento, conocer las entradas disponibles y enviar una consulta mediante un formulario de contacto.
+EL sitio incluye una página de inicio, una sección de entradas y una página de contacto con un formulario integrado con Formspree.
 
+En esta primera entrega se centra en la **estructura, diseño y maquetación del sitio web**. En una segunda etapa se incorporará **JavaScript** para agregar funcionalidades e interacción a la página.
 
 
 ## 🖥️ Secciones del sitio
@@ -70,7 +66,10 @@ También se utilizó el método `POST` para realizar el envío de los datos.
 
 ## 📱 Diseño responsive
 
+
 Se utilizaron reglas @media en CSS para adaptar la visualización del sitio a diferentes tamaños de pantalla, permitiendo una mejor experiencia tanto en computadoras como en dispositivos móviles.
+
+
 
 ## 👩‍💻 Autora
 
