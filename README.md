@@ -13,6 +13,13 @@ EL sitio incluye una página de inicio, una sección de entradas y una página d
 En esta primera entrega se centra en la **estructura, diseño y maquetación del sitio web**. En una segunda etapa se incorporará **JavaScript** para agregar funcionalidades e interacción a la página.
 
 
+## 🌐 Proyecto publicado
+
+El proyecto fue publicado utilizando **Vercel* para facilitar la visualización del sitio web en línea.
+
+**[Ver Conexión 2026](https://conexion2026.vercel.app/)**
+
+
 ## 🖥️ Secciones del sitio
 
 
