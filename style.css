@@ -38,13 +38,16 @@ header {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translateX(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .logo-img {
     height: 50px;
     display: block;
 
+}
+.logo a {
+    display: block;
 }
 .redes-header{
     display: flex;
@@ -622,8 +625,8 @@ footer .redes a:hover{
    RESPONSIVE
 ========================================= */
 
-@media (max-width: 900px) {
-    .header {
+@media (max-width: 700px) {
+    header {
         min-height: 70px;
         padding: 12px 5%;
         justify-content: space-between;
