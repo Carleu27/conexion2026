@@ -23,12 +23,14 @@ El proyecto fue publicado utilizando *Vercel* para facilitar la visualización d
 ## 🖥️ Secciones del sitio
 
 
-El proyecto está compuesto por las siguientes páginas:
+El sitio cuenta con un menú de navegación que permite acceder a las secciones principales: 
 
 
 - **Inicio:** presentación del evento, información principal, fecha, horario y ubicación.
 - **Entradas:** información del evento y tipos de entradas disponibles.
 - **Contacto:** formulario para que el usuario pueda enviar una consulta.
+
+Se incorporaron botones y enlace internos para facilitar el recorrido entre las diferentes páginas.
 
 
 ## 📝 Formulario de contacto
@@ -66,7 +68,13 @@ También se utilizó el método `POST` para realizar el envío de los datos.
 
 - HTML5
 - CSS3
-- Formspree
+
+## Recusos utilizados
+
+- Google Fonts - tipografía Roboto
+- Font Awesome - íconos de rede sociales y menu
+- Formspree - formulario de contacto
+- Vercel - publicación del proyecto
 
 **Formspree se utilizó para resolver el envío del formulario sin desarrollar un backend**
 
