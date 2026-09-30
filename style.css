@@ -14,7 +14,7 @@ body {
     color: #172033;
     line-height: 1.6;
 }
-.pagina {
+pagina {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -24,8 +24,8 @@ body {
 
 /*HEADER*/
 header {
+    position: relative;
     background-color: #ffffff;
-    color: rgb(255, 254, 254);
     padding: 15px 5%;
     display: flex;
     align-items: center;
@@ -33,13 +33,27 @@ header {
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: bold;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .logo-img {
     height: 50px;
 
+}
+.redes-header{
+    display: flex;
+    gap: 18px;
+}
+.redes-header a {
+    color: #172033;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.redes-header a:hover {
+    opacity: 0.6;
 }
 
 /* MENÚ*/
