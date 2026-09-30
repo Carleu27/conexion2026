@@ -25,31 +25,37 @@ body {
 /*HEADER*/
 header {
     position: relative;
+    width: 100%;
     background-color: #ffffff;
     padding: 15px 5%;
+    min-height:80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-    position:absolute;
+    position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translateX(-50%, -50%);
 }
 
 .logo-img {
     height: 50px;
+    display: block;
 
 }
 .redes-header{
     display: flex;
+    align-items: center;
     gap: 18px;
 }
 .redes-header a {
     color: #172033;
     font-size: 1.2rem;
     text-decoration: none;
+    transition: opacity 0.2s ease;
 }
 
 .redes-header a:hover {
@@ -63,12 +69,13 @@ header {
 
 .flex-menu {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 28px;
 }
 
 .flex-menu a {
-    color: rgb(0, 0, 0);
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
     transition: opacity 0.2s ease;
@@ -78,6 +85,12 @@ header {
     opacity: 0.7;
 }
 
+#menu-toggle {
+    display:none;
+}
+.menu-icon{
+    display: none;
+}
 
 /* CONTENIDO GENERAL*/
 .main {
@@ -611,15 +624,18 @@ footer .redes a:hover{
 
 @media (max-width: 900px) {
     .header {
-        padding: 16px 5%;
-        flex-direction: column;
-        gap: 15px;
+        min-height: 70px;
+        padding: 12px 5%;
+        justify-content: space-between;
     }
-    .header {
-        padding: 16px 5%;
-        flex-direction: column;
-        gap: 15px;
+    .logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
+    .logo-img{
+        height:42px;
 
     .hero {
         min-height: auto;
@@ -632,10 +648,50 @@ footer .redes a:hover{
     .datos-evento {
         gap: 30px;
     }
+        
+    .redes-header{
+        display:none;
+    }
+
+    .menu-icon{
+        display:block;
+        font-size: 1.5rem;
+        color: #172033;
+        cursor: pointer;
+        z-index:10;
+
+    }
+
+    .menu{
+        display:none;
+        position: absolute;
+        top:70px;
+        left: 0;
+        width:100%
+        background-color: #ffffff;
+        border-top: 1px solid #e1e4e8;
+        z-index: 20;
+    }
+
+    #menu-toggle:checked ~ .menu{
+        display:block;
+    }
 
     .flex-menu {
-        gap: 15px;
+        flex-direction:column;
+        width:100%;
+        gap: 0px;      
     }
+
+    .flex-menu li {
+        width:100%;
+        text-align: center;
+        border-botton: 1px solid #e1e4e8;        
+    }
+    .flex-menu a {
+        display:block;
+        width:100%;
+        padding: 15px;
 
     .entrada {
         padding: 45px 5%;
