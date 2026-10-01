@@ -495,7 +495,7 @@ header {
 
 .info h2,
 .form h2 {
-  color: var(--dark);
+  color: #0B1F3A;
   font-size: 23px;
   margin-bottom: 20px;
 }
@@ -511,13 +511,13 @@ header {
 
 .info-item strong {
   display: block;
-  color: var(--blue);
+  color:#123A78;
   margin-bottom: 4px;
   font-size: 14px;
 }
 
 .info-item span {
-  color: var(--muted);
+  color: #6B7280;
   font-size: 14px;
 }
 
@@ -530,7 +530,7 @@ label {
   margin-bottom: 7px;
   font-size: 13px;
   font-weight: 700;
-  color: var(--text);
+  color:#1F2937;
 }
 
 input,
@@ -547,7 +547,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: var(--violet);
+  border-color: #6C63FF;
   box-shadow: 0 0 0 3px rgba(108, 99, 255, .12);
 }
 
@@ -565,7 +565,6 @@ textarea {
   border-radius: 6px;
   background-color: #172a46;
   color: white;
-
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -710,7 +709,7 @@ footer .redes a:hover{
         display: flex;
         flex-direction: column;
         width: 100%;
-        gap: 0;
+        gap: 0px;
     }
 
 
@@ -817,6 +816,7 @@ footer .redes a:hover{
 
     .entrada h1 {
         font-size: 2.1rem;
+        padding: 60pa 7%;
     }
 
 
